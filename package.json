@@ -1,0 +1,24 @@
+{
+    "name": "ps-matrix",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "dependencies": {
+        "live-server": "^1.2.1",
+        "p5": "^1.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    },
+    "scripts": {
+        "dev": "nodemon http-server './src'"
+    },
+    "author": "",
+    "license": "ISC",
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    }
+}
